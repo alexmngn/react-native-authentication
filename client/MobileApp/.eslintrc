@@ -1,0 +1,28 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": false,
+        "node": true,
+        "es6": true
+    },
+    "plugins": [
+        "react",
+        "react-native"
+    ],
+    "extends": "airbnb",
+
+    "rules": {
+        "indent": [2, "tab", {"SwitchCase": 1}],
+        "no-else-return": 0,
+        "no-tabs": 0,
+        "no-console": 0,
+        "consistent-return": 0,
+        "import/no-extraneous-dependencies": 0,
+        "import/no-unresolved": [2, { ignore: ['MobileApp'] }],
+        "import/extensions": [2, { "js": "never" }],
+        "import/prefer-default-export": 0,
+        "react/jsx-indent": [2, 'tab'],
+        "react/jsx-indent-props": [2, 'tab'],
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    }
+}

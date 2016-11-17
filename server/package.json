@@ -1,0 +1,33 @@
+{
+  "name": "react-native-authentication-server",
+  "version": "1.0.0",
+  "description": "Demo server for react-native-authentication",
+  "keywords": [],
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "ejs": "^2.5.2",
+    "eslint-config-airbnb-base": "^9.0.0",
+    "include-all": "^1.0.0",
+    "moment": "^2.15.2",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0",
+    "passport-http-bearer": "^1.0.1",
+    "rand-token": "^0.2.1",
+    "rc": "1.0.1",
+    "sails": "~0.12.9",
+    "sails-disk": "~0.10.9",
+    "sails-hook-validation": "^0.4.6"
+  },
+  "scripts": {
+    "start": "babel-node app.js"
+  },
+  "main": "app.js",
+  "author": "Alexis Mangin",
+  "license": "MIT",
+  "repository": {},
+  "devDependencies": {
+    "babel-eslint": "^7.1.0",
+    "eslint": "^3.9.1",
+    "eslint-plugin-import": "^2.1.0"
+  }
+}
