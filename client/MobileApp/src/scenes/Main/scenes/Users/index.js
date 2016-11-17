@@ -84,7 +84,6 @@ class Users extends Component {
 	tryFetch() {
 		// Fetch users when the scene becomes active
 		const { items } = this.props.services.routeHistory;
-		console.log(this.props);
 		if (Object.keys(this.props.data.users.items).length === 0 &&
 		items.length > 0 && items[items.length - 1].name === 'Users') {
 			this.props.actions.users.get();
