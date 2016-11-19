@@ -162,7 +162,7 @@ class Login extends Component {
 								/>
 							</InputGroup>
 							{this.state.isLoading ? (
-								<Spinner size={1} color="#000000" />
+								<Spinner size="small" color="#000000" />
 							) : (
 								<Button
 									style={styles.button}

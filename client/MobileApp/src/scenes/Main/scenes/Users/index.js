@@ -32,7 +32,7 @@ const renderList = () => {
 	const items = usersSelectors.getAll();
 	if (items.length === 0) {
 		return (
-			<Spinner size={1} color="#000000" />
+			<Spinner size="small" color="#000000" />
 		);
 	}
 
