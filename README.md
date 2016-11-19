@@ -4,8 +4,10 @@ The main goal of this project is to show you how to register and authenticate a 
 
 If you want to know more about this project, you can read this article which describe how it works:
 
-The Essential Boilerplate to Authenticate Users on your React-Native app.
+The Essential Boilerplate to Authenticate Users on your React-Native app.<br />
 https://medium.com/@alexmngn/the-essential-boilerplate-to-authenticate-users-on-your-react-native-app-f7a8e0e04a42
+
+This project has been tested with Node v6.0.0 and NPM 3.8.6.
 
 ## Client
 
