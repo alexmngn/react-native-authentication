@@ -32,8 +32,19 @@ react-native run-ios
 ```
 Android:
 
-First, you need to open an Emulator (from Android Studio) or plug an Android device on your computer
-Then you can run the following:
+You will need to follow a few steps to run the client:
+
+- Open the file `client/MobileApp/src/services/api/config.js`
+- Modify `localhost` with the IP address of your machine (usually something like 192.168.0.10)
+```
+export default {
+	clientId: '8puWuJWZYls1Ylawxm6CMiYREhsGGSyw',
+	url: 'http://192.168.0.10:1337',
+};
+```
+
+- Open an Emulator (from Android Studio) or plug an Android device on your computer.
+- Then you can run the following in terminal:
 ```
 react-native run-android
 ```
