@@ -42,7 +42,7 @@ export default {
 	url: 'http://192.168.0.10:1337',
 };
 ```
-
+- Create a file called `local.properties` in the `/MobileApp/android` folder and add the following line (replace the target with the path to your SDK): `sdk.dir = /Users/Alexis/Library/Android/sdk`
 - Open an Emulator (from Android Studio) or plug an Android device on your computer.
 - Then you can run the following in terminal:
 ```
