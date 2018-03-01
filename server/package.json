@@ -12,7 +12,7 @@
     "passport": "^0.3.2",
     "passport-http": "^0.3.0",
     "passport-http-bearer": "^1.0.1",
-    "rand-token": "^0.2.1",
+    "rand-token": "^0.4.0",
     "rc": "1.0.1",
     "sails": "~0.12.9",
     "sails-disk": "~0.10.9",
